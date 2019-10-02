@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="138dp"
+        android:layout_height="31dp"
+        android:text="@string/label_tip_amount"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="283dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="159dp"
+        android:layout_height="38dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="214dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="49dp"
+        android:layout_height="41dp"
+        android:text="@string/button_decrese"
+        tools:layout_editor_absoluteX="222dp"
+        tools:layout_editor_absoluteY="163dp" />
+
+    <WebView
+        android:layout_width="360dp"
+        android:layout_height="284dp"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="423dp" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="422dp" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="?android:attr/listDivider"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="?android:attr/listDivider"
+        tools:layout_editor_absoluteX="391dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="159dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/bill_amount_label"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="157dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/tip_present_label"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="95dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="160dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/tip_present"
+        tools:layout_editor_absoluteX="211dp"
+        tools:layout_editor_absoluteY="91dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="49dp"
+        android:layout_height="41dp"
+        android:text="@string/increase_tip"
+        tools:layout_editor_absoluteX="287dp"
+        tools:layout_editor_absoluteY="164dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="138dp"
+        android:layout_height="31dp"
+        android:text="@string/label_tip_amount"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

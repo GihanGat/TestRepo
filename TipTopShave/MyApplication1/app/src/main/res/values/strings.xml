@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application1</string>
+    <string name="bill_amount_label">Bill Amount :</string>
+    <string name="tip_present_label">Tip :</string>
+    <string name="tip_present">15%</string>
+    <string name="button_decrese">-</string>
+    <string name="increase_tip">+</string>
+    <string name="label_tip_amount">Tip Amount :</string>
+</resources>

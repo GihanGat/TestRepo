@@ -1,0 +1,35 @@
+Hello World App Project Source for Android
+------------------------------------------
+
+This example Android App project is the simplest Hello World App for Android. It is probably easier to create a new Android App in Studio than to import this code. See the article http://tekeye.uk/android/your-first-android-java-program for more information. 
+
+Using This Code in Android Studio
+---------------------------------
+
+It is assumed that the latest Android Studio has been installed and configured for Android development. To install and set up Android Studio for Windows see the article http://tekeye.uk/android/android-studio-windows-install or view the page http://developer.android.com/sdk/index.html on the Android Developers website.
+
+1. Extract the contents of the zip file to a folder on the system preserving directory structure. The extracted project will remain in that location.
+
+E.g. If projects are stored in C:\android-projects then extract the zip file to that location, creating C:\android-projects\HelloWorld.
+
+2. Run Android Studio.
+
+3. Return to Studio's Welcome screen by closing any open projects.
+
+4. Select Import project.
+
+5. Browse to the HelloWorld project directory.
+
+6. Select the build.gradle file and click OK.
+
+7. Configure the Gradle settings by clicking OK on the Gradle Sync message.
+
+8. Wait for the IDE to finish configuring the project, view the bottom status bar for progress.
+
+9. The project should then be ready to run. If not Studio will show any errors that need addressing.
+
+Import Errors
+-------------
+
+If you see a Rendering Problems message see http://tekeye.uk/android/android-studio-rendering-problems
+If an error Minimum Supported Gradle Version is shown see http://tekeye.uk/android/minimum-supported-gradle-version
